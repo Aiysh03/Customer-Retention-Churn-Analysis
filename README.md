@@ -21,17 +21,17 @@ The objective of this project is to analyze customer purchasing behavior, measur
 10. RFM segmentation and segment revenue contribution
 
 ## Key Insights
-1. Top 20% customers contribute 32.6% of revenue, indicating balanced revenue distribution.
+1. Revenue is moderately concentrated, with the top 20% contributing 32.6%, reducing dependency risk on a small customer base.
 2. Only 0.2% customers are one-time buyers, showing strong repeat behavior.
 3. Revenue trend is seasonal but stable without drastic decline.
-4. Churn rate is 36.6%, indicating moderate customer attrition.
+4. A churn rate of 36.6% suggests significant reactivation opportunity, particularly among high-monetary lost customers.
 5. Lost Customers segment contributes the highest revenue, suggesting reactivation opportunities.
 
 ## Business Recommendations
-1. Implement targeted reactivation campaigns for high-value lost customers.
-2. Introduce tier-based loyalty program to retain premium customers.
-3. Monitor purchase gap trends as early churn signals.
-4. Use spending-based personalized offers instead of flat discounts.
+- Implement targeted reactivation campaigns for high-value lost customers.
+- Introduce tier-based loyalty program to retain premium customers.
+- Monitor purchase gap trends as early churn signals.
+- Implement value-based retention strategies to protect margins while re-engaging high-risk customers.
 
 ## Technical Skills Demonstrated
 1. Aggregations (SUM, COUNT, AVG)
@@ -40,3 +40,6 @@ The objective of this project is to analyze customer purchasing behavior, measur
 4. CTEs
 5. Window Functions (DENSE_RANK, NTILE, LAG, SUM OVER)
 6. RFM Segmentation
+
+## Conclusion
+This analysis highlights revenue concentration patterns, repeat purchase behavior, and customer churn risk using advanced SQL techniques. The findings provide a foundation for targeted retention strategies and data-driven customer lifecycle management.
