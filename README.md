@@ -33,13 +33,38 @@ The objective of this project is to analyze customer purchasing behavior, measur
 - Monitor purchase gap trends as early churn signals.
 - Implement value-based retention strategies to protect margins while re-engaging high-risk customers.
 
+## Project Workflow
+1. Data Preparation (MySQL)
+- Imported raw transaction dataset into MySQL.
+- Cleaned date formats and handled null values.
+- Created structured transactions table.
+- Performed aggregations and window function analysis.
+- Built RFM segmentation logic.
+- Calculated churn rate using last purchase date logic.
+
+2. KPI Extraction
+- Exported SQL outputs:
+1. Monthly revenue
+2. Customer frequency distribution
+3. Top 10 customers
+4. RFM segment summary
+5. Churn rate
+- Imported results into Excel using Power Query.
+
+3. Dashboard Development (Excel)
+- Designed interactive KPI dashboard
+- Created:
+* Revenue trend line chart
+* RFM revenue distribution
+* Top 10 customers bar chart
+* Customer frequency histogram
+- Added business insight summary panel
+
 ## Technical Skills Demonstrated
-1. Aggregations (SUM, COUNT, AVG)
-2. GROUP BY & HAVING
-3. Date Functions
-4. CTEs
-5. Window Functions (DENSE_RANK, NTILE, LAG, SUM OVER)
-6. RFM Segmentation
+1. MySQL (Data Analysis, CTEs, Window Functions)
+2. Excel (Power Query, Charts, KPI Cards)
+3. Data Modeling (RFM Segmentation)
+4. Business Insight Generation
 
 ## Conclusion
 This analysis highlights revenue concentration patterns, repeat purchase behavior, and customer churn risk using advanced SQL techniques. The findings provide a foundation for targeted retention strategies and data-driven customer lifecycle management.
