@@ -54,6 +54,7 @@ The objective of this project is to analyze customer purchasing behavior, measur
 3. Dashboard Development (Excel)
 - Designed interactive KPI dashboard
 - Created:
+
 1.Revenue trend line chart.
 2.RFM revenue distribution.
 3.Top 10 customers bar chart.
